@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# Sahaaya App – How to Run
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Step 1: Download
+- Download the project as ZIP
+- Extract it
+- Open the folder
 
-## Get started
+---
 
-1. Install dependencies
+## Step 2: Open in VS Code
+- Open VS Code
+- Click **File → Open Folder**
+- Select `sahaaya-app`
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Step 3: Install dependencies
+Open terminal inside VS Code and run:
 
-   ```bash
-   npx expo start
-   ```
+npm install
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Step 4: Start the app
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+npx expo start
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Step 5: Run on phone
+- Install **Expo Go** app on your phone
+- Connect phone & laptop to same WiFi
+- Scan QR code shown in terminal
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Step 6: First time setup
+- Login with phone + password
+- Go to Profile and fill details
+- Add emergency contacts
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Step 7: Test features
+- Add reminders → check notifications
+- Press SOS button
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## Important Notes
+- If app breaks → run:
 
-Join our community of developers creating universal apps.
+npx expo start -c
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Don’t delete folders like:
+  - node_modules (auto created)
+  - app/
+  - components/
+
+---
+
+## Done 👍
